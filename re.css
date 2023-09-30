@@ -1,0 +1,128 @@
+/* Default CSS */
+:root{--red:#ff274b;--black:#171a1c;--font:#fff;--black2:#22282a }
+*{margin:0;padding:0;box-sizing:border-box; }
+html{font-family:"Josefin Sans" }
+
+body {;color:var(--font) ;text-transform:capitalize;font-size:13px;background-color:var(--black) }
+
+.div{background-color:var(--black);flex-wrab:wrab;flex-direction:column;width:100%;height:100vh;display:flex;}
+.ul{list-style-type:none;width:80%;}
+nav{height:50px;background-color:var(--black) ;padding-top:2.2rem;padding-right:1%;padding-left:8%;
+display:flex;align-items:center;justify-content:space-between;flex-direction:row;;z-index:990}
+.li{display:inline-block;margin:0.8rem 1.5rem}
+.h{;width:20%;letter-spacing:0.12rem }
+.but{width:120px;height:40px ;border-radius:30px;background-color:var(--red) ;border:solid 2px var(--red);
+cursor:pointer;color:rgba(255,255,255,1);font-family:sans-serif;position:relative;transition:0.9s;}
+.but:hover{;background-color:var(--black);transition:0,9s;border:solid 2px var(--red);transform:scale(1.050)}
+span{color:var(--red) }
+.lib{padding-left:21%}
+a{; text-decoration:none;color:var(--font);display:inline-block;transition:0.6s;}
+a:hover{color:var(--red);transition:0.7s}
+.di{;flex-grow:1;justify-content:space-between ;align-items:center;display:flex}
+div>div h1{padding:10px 0;font-size:5vh }
+.bu{margin-top:20px }
+h3{font-size:18px } 
+h4{font-size:14px;letter-spacing:2px }
+h5{margin:5px 0px;font-size:18px }
+.d{position:relative; bottom:30px;margin-left:8%;}
+.soshil{margin-top:30px }
+.soshil a{margin:0 10px }
+.soshil a img{ ;transition:0.7s}
+.soshil a img:hover{transform:scale(1.2)}
+.dimg{position:relative;width:45%;align-self:flex-end}
+.dimg img{;position:absolute;bottom:0;left:50%;transform:translatex(-50%)}
+.color{ transition:1s;}
+.dimg:hover .color{bottom:40px;}
+.man{transition:1s }
+.dimg:hover .man{left:55%; }
+.sec{display:flex;height:auto;background-color:var(--black2);justify-content:center;align-items:center}
+.secdiv{width:50%;display:flex;justify-content:center;align-items:center ;}
+.sec .secdiv img{margin-left:0%; ;transition:0.9s}
+#secdiv{padding-top:30px;width:50%;padding-left:50px } 
+#secdiv h1{font-size:54px;padding-bottom:20px }
+#secdiv div{margin-top:18px }
+#secdiv div {letter-spacing:1.3px;padding-bottom:3px;padding-right:36px;line-height:15px;font-size:14.7px;text-transform:none;}
+.three{;height:auto;}
+.tk{height:200px;width:230px;background-color:var(--black2);margin-left:0;border-radius:17px;
+padding-left:0;text-align:center;padding-top:20px;padding:20px 14px;margin-bottom:20px;transition:0.9s }
+#tk{display:flex;align-items:center;justify-content:space-between;height:auto;padding:0 85px;margin-bottom:10px;}
+.three h3{text-align:center;font-size:40px;padding-top:26px ;margin-bottom:20px}
+.sh{padding-top:0px;width:50%;padding-left:8%;padding-bottom:20px ;margin-top:20px ;height:420px;}
+.sh h1{ font-size:54px;margin-bottom:20px}
+.xsh{display:flex;height:450px;background-color:var(--black2);justify-content:center;align-items:center;padding-bottom:20px  }
+.ssh{width:50%;display:flex;justify-content:center;align-items:center ;padding-right:190px }
+.short{display:flex;flex-wrap:wrap ;width:70%;height:200px }
+.short div{background-color:#fff;border-radius:75px;display:flex;justify-content:center;align-items:center;height:64px;width:64px;
+margin:10px 10px;box-shadow: 1px 1px 10px 1px #fff;transition:0.7s }
+.short div:hover{transform:scale(1.099) }
+.end{text-align:center;padding-top:20px }
+.end p{margin:20px 0;font-size:16px }
+.end #end{font-size:12px }
+.end h2{font-size:30px }
+.ssh img{;transition:0.7s }
+.ssh:hover img{ transform:scale(1.099) }
+.secdiv img:hover {transform:scale(1.099) }
+.tk:hover{ transform:scale(1.090);box-shadow: 2px 4px 10px 1px #000,-2px -4px 10px 1px #000  }
+.ul li:first-child{padding:80px }
+.x{display:none; }
+#borgur{display:none;height:50px;width:50px;text-align:center;background:none;border:none;position:relative;border-radius:50%
+;cursor:pointer;}
+#borgur span{height:4px;width:33px;background:#fff;z-index:30;margin:5px 0;display:block; border-radius:6px}
+
+
+ 
+@media screen and (max-width:1144px)
+{ .lib{padding-left:0% } #tk{padding:0 20px  ;justify-content:space-between;}}
+
+@media screen and (max-width:985px)
+{  #tk{padding:0 20px  ;justify-content:space-between; } .tk{ width:200px }}
+
+@media screen and (max-width:910px)
+{ .lib{display:none; } #tk{padding:0 20px  ;justify-content:space-between;} .tk{ width:195px} .dimg{display:none; }
+.short{width:85% } .ssh{padding-right:75px }}
+
+@media screen and (max-width:860px)
+{ .tk{ width:175px} }
+
+@media screen and (max-width:767px)
+{.short{width:59% } #tk{justify-content:center } }
+
+@media screen and (max-width:653px)
+{.short{width:69% } }
+
+@media screen and (max-width:576px) 
+{ .d{margin-left:5%;margin-top:67px } .dimg{display:none; } .ul{display:none; } nav{padding-top:0;position:fixed; top:0;left:0;
+height:82px;border-bottom:2px solid var(--black2);right:0;padding-left:5%} .soshil a img{width:38px;height:38px  } 
+.soshil{ margin-top:60px } .bu{margin-top:60px } .d h3{margin-top:15px } .d h1{margin-top:15px;display:inline-block; }
+.lib a{display:none; } .ul{ width:100%;height:100vh;background:var(--black2);position:fixed;left:0;top:0;right:0;display:gri;
+grid-template-rws:repeat() }
+.ul li{display:block;font-size:16px;margin:40px 0;text-align:center; } .ul li:first-child{padding:0;margin-top:50px }
+.x{display:inline-block;position:absolute;top:5px;right:5px } #borgur{display:block;}
+.secdiv img{display:none; } #secdiv{width:100%;padding-left:5%;padding-right:10px;padding-bottom:30px } 
+#secdiv div{line-height:18.5px;font-size:16px } 
+.secdiv{width:0 } #tk{ flex-wrap:wrap;padding:20px 76px;;justify-content:center} .tk{width:500px;height:233px } .ssh{display:none;width:0 } 
+.sh{width:100%}}
+
+@media screen and (max-width:396px)
+{#tk{padding:0 46px} .short{width:80% } }
+
+@media screen and (max-width:346px)
+{ .short{width:90% } .end h2{font-size:23px } .end p:first-of-type{font-size:14.5px }}
+
+@media screen and (min-width:230px) and (max-width:767px)
+{ .d{margin-left:5%;margin-top:130px } .dimg{display:none; } .ul{display:none; } nav{padding-top:0;position:fixed; top:0;left:0;
+height:82px;border-bottom:2px solid var(--black2);right:0;padding-left:5%} .soshil a img{width:38px;height:38px  } 
+.soshil{ margin-top:15px } .bu{margin-top:20px } .d h3{margin-top:8px } .d h1{margin-top:8px;display:inline-block;font-size:23px }
+.lib a{display:none; } .ul{ width:100%;height:100vh;background:var(--black2);position:fixed;left:0;top:0;right:0;display:gri;
+grid-template-rws:repeat() }
+.ul li{display:block;font-size:16px;margin:40px 0;text-align:center; } .ul li:first-child{padding:0;margin-top:50px }
+.x{display:inline-block;position:absolute;top:5px;right:5px } #borgur{display:block;}
+.secdiv img{display:none; } #secdiv{width:100%;padding-left:5%;padding-right:10px;padding-bottom:30px } 
+#secdiv div{line-height:18.5px;font-size:16px } 
+.secdiv{width:0 } #tk{ flex-wrap:wrap;padding:20px 76px} .tk{width:500px;height:233px } .ssh{display:none;width:0 } 
+.sh{width:100%}}
+
+@media screen and (max-width:330px)
+{ #tk{ padding:0 60px } }
+@media screen and (max-width:304px)
+{ .short{width:100% } #tk{ padding:0 20px;height: }}
